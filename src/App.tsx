@@ -1,12 +1,20 @@
 import React from 'react'
-import Test from './test'
-import GlobalStyle from './globalStyle'
+import GlobalStyle, { Container } from './globalStyle'
+import Sidebar from './containers/sidebar'
+import Sobre from './containers/about'
+import Projects from './containers/projects'
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Test />
+      <Container>
+        <Sidebar />
+        <main>
+          <Sobre />
+          <Projects />
+        </main>
+      </Container>
     </>
   )
 }
