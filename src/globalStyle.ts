@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color: ${(props) => props.theme.fundo};
 
     @media (max-width: 768px) {
       padding-top: 12px;

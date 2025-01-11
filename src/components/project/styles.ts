@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 export const Card = styled.div`
-  border: solid 1px #c1c1c1;
+  border: solid 1px ${(props) => props.theme.corBorda};
   padding: 16px;
 `
 export const ButtonA = styled.a`
-  color: #fff;
+  color: ${(props) => props.theme.fundo};
   font-size: 14px;
-  background-color: #4476bf;
+  background-color: ${(props) => props.theme.fundoBotao};
   text-decoration: none;
   padding: 8px;
   display: inline-block;
