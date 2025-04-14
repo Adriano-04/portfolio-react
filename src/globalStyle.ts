@@ -36,5 +36,4 @@ export const Container = styled.div`
     max-width: 100%;
   }
 `
-
 export default GlobalStyle

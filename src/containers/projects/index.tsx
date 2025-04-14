@@ -7,19 +7,28 @@ const Projects = () => (
     <Title fontSize={16}>Projetos</Title>
     <List>
       <li>
-        <Project />
+        <Project
+          title="Agenda de contatos"
+          text="Agenda de contatos feita utilizando o react e redux com opção de adicionar,remover e editar."
+          href="https://github.com/Adriano-04/Lista-contatos/tree/main/src"
+          tag="Redux"
+          deploy="https://lista-contatos-omega-one.vercel.app/"
+        />
       </li>
       <li>
-        <Project />
+        <Project
+          title="Loja de veiculos"
+          text="Um projeto simples de um loja de veiculos que foi feita para estudo do BootStrap."
+          href="https://github.com/Adriano-04/Lista-contatos/tree/main/src"
+          tag="BootStrap"
+        />
       </li>
       <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
+        <Project
+          title="Restaurante"
+          text="Projeto feito como exercicio de curso de uma pagina de restaurante feita com react,redux e router dom"
+          href="https://github.com/Adriano-04/Lista-contatos/tree/main/src"
+        />
       </li>
     </List>
   </section>

@@ -6,10 +6,13 @@ const Sobre = () => (
   <section>
     <Title fontSize={16}>Sobre</Title>
     <Text tipo="principal">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa distinctio
-      id impedit blanditiis velit, quidem consequatur, commodi, voluptate
-      asperiores animi praesentium ea reprehenderit? Dolor itaque porro quidem,
-      voluptas ducimus cum.
+      Atualmente sou estudante focado na área de desenvolvimento front-end, com
+      um ano de estudos sobre as principais ferramentas e tecnologias da área de
+      front-end, como o HTML, CSS, JavaScript, TypeScript além de alguns
+      frameworks como o React, BootStrap. Tenho projetos pessoais de estudo que
+      eu utilizo todas essas tecnologias e deixo elas disponíveis nos meus
+      repositórios do GitHub, busco continuar aprendendo e melhorar minha
+      experiência na área.
     </Text>
     <Github>
       <img

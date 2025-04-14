@@ -1,12 +1,22 @@
 import Title from '../title'
 import Text from '../text'
-import { Card, ButtonA } from './styles'
+import { Card, ButtonA, Tag } from './styles'
 
-const Project = () => (
+type Props = {
+  title: string
+  text: string
+  href: string
+  tag?: string
+  deploy?: string
+}
+
+const Project = ({ title, text, href, tag, deploy }: Props) => (
   <Card>
-    <Title>Projeto 1</Title>
-    <Text tipo="secundaria">Projeto de vueJS</Text>
-    <ButtonA>Visualizar</ButtonA>
+    <Title>{title}</Title>
+    <Text tipo="secundaria">{text}</Text>
+    <ButtonA href={href}>Visualizar código</ButtonA>
+    {deploy && <ButtonA href={deploy}>Visualizar página</ButtonA>}
+    {tag && <Tag>{tag}</Tag>}
   </Card>
 )
 
