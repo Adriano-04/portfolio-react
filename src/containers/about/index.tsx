@@ -9,7 +9,7 @@ const Sobre = () => (
       Atualmente sou estudante focado na área de desenvolvimento front-end, com
       um ano de estudos sobre as principais ferramentas e tecnologias da área de
       front-end, como o HTML, CSS, JavaScript, TypeScript além de alguns
-      frameworks como o React, BootStrap. Tenho projetos pessoais de estudo que
+      frameworks como o React, Bootstrap. Tenho projetos pessoais de estudo que
       eu utilizo todas essas tecnologias e deixo elas disponíveis nos meus
       repositórios do GitHub, busco continuar aprendendo e melhorar minha
       experiência na área.

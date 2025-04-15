@@ -17,11 +17,19 @@ const Sidebar = (props: Props) => (
       <Description tipo="principal" fontSize={12}>
         Desenvolvedor Front-end
       </Description>
+      <Title fontSize={14}>Tema</Title>
       <ButtonTheme as={'a'} onClick={props.changeTheme}>
         Mudar tema
       </ButtonTheme>
+      <Title fontSize={14}>Contato</Title>
       <ButtonTheme as={'a'} href="https://github.com/Adriano-04">
         Perfil no GitHub
+      </ButtonTheme>
+      <ButtonTheme
+        as={'a'}
+        href="https://www.linkedin.com/in/adriano-marques-22a07a35b/"
+      >
+        Perfil no Linkdin
       </ButtonTheme>
     </SideContainer>
   </aside>

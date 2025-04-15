@@ -9,7 +9,7 @@ export const Card = styled.div`
 `
 export const ButtonA = styled.a`
   color: ${(props) => props.theme.fundo};
-  font-size: 14px;
+  font-size: 12px;
   background-color: ${(props) => props.theme.fundoBotao};
   text-decoration: none;
   padding: 6px;
@@ -20,11 +20,11 @@ export const ButtonA = styled.a`
   margin-right: 6px;
 `
 export const Tag = styled.h4`
-  background-color: ${(props) => props.theme.corPrincipal};
+  background-color: ${(props) => props.theme.tag};
   font-size: 12px;
   border-radius: 4px;
   padding: 4px;
-  color: ${(props) => props.theme.corSecundaria};
+  color: #fff;
   position: absolute;
   top: 4px;
   right: 4px;

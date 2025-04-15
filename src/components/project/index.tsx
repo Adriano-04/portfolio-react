@@ -12,7 +12,7 @@ type Props = {
 
 const Project = ({ title, text, href, tag, deploy }: Props) => (
   <Card>
-    <Title>{title}</Title>
+    <Title fontSize={14}>{title}</Title>
     <Text tipo="secundaria">{text}</Text>
     <ButtonA href={href}>Visualizar código</ButtonA>
     {deploy && <ButtonA href={deploy}>Visualizar página</ButtonA>}

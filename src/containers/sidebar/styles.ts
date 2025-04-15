@@ -22,6 +22,11 @@ export const SideContainer = styled.div`
   top: 80px;
   left: 0;
 
+  @media (min-width: 1124px) {
+    position: fixed;
+    left: 84px;
+  }
+
   @media (max-width: 768px) {
     margin-bottom: 40px;
     text-align: center;
