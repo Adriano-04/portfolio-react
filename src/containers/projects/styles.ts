@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Title } from '../../components/title/styles'
 
 const List = styled.ul`
   display: grid;
@@ -12,4 +13,15 @@ const List = styled.ul`
     row-gap: 16px;
   }
 `
+
+export const Section = styled.section`
+  margin-bottom: 16px;
+
+  > ${Title} {
+    border-bottom: 2px solid gray;
+    padding: 4px;
+    margin-bottom: 16px;
+  }
+`
+
 export default List

@@ -4,6 +4,7 @@ import { Props } from './index'
 export const Title = styled.h3<Props>`
   color: ${(props) => props.theme.corPrincipal};
   font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
+  text-align: ${(props) => props.TextAlign};
   font-weight: bold;
   font-style: normal;
   margin-bottom: 12px;

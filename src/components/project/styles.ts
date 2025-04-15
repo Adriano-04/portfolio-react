@@ -18,6 +18,9 @@ export const ButtonA = styled.a`
   cursor: pointer;
   border-radius: 4px;
   margin-right: 6px;
+  &:hover {
+    font-size: 14px;
+  }
 `
 export const Tag = styled.h4`
   background-color: ${(props) => props.theme.tag};
