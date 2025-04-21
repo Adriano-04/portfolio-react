@@ -4,8 +4,8 @@ import { Title } from '../../components/title/styles'
 const List = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 36px;
-  row-gap: 40px;
+  gap: 32px;
+  row-gap: 24px;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -20,7 +20,6 @@ export const Section = styled.section`
   > ${Title} {
     border-bottom: 2px solid gray;
     padding: 4px;
-    margin-bottom: 16px;
   }
 `
 

@@ -14,10 +14,19 @@ const Projects = () => (
       <List>
         <li>
           <Project
+            title="Clone Youtube"
+            text="Toda a página inicial do youtube feita com o angular para estudo."
+            href="https://github.com/Adriano-04/Youtube-clone"
+            tag="Angular"
+            deploy="https://youtube-clone-teal-one.vercel.app/"
+          />
+        </li>
+        <li>
+          <Project
             title="Agenda de contatos"
             text="Agenda de contatos feita utilizando o react e redux com opção de adicionar,remover e editar."
             href="https://github.com/Adriano-04/Lista-contatos/tree/main/src"
-            tag="React"
+            tag="React/Redux"
             deploy="https://lista-contatos-omega-one.vercel.app/"
           />
         </li>
@@ -27,6 +36,7 @@ const Projects = () => (
             text="Projeto feito como exercicio de curso de uma pagina de restaurante feita com react,redux e router dom"
             href="https://github.com/Adriano-04/e-food"
             deploy="https://e-food-kappa.vercel.app/"
+            tag="React/Redux"
           />
         </li>
       </List>
@@ -40,7 +50,7 @@ const Projects = () => (
             text="Projeto simples usando apenas o HTML5 e CSS feito para estudo."
             href="https://github.com/Adriano-04/Loja-virtual"
             deploy="https://gigastore.vercel.app/"
-            tag="HTML5"
+            tag="HTML5/CSS"
           />
         </li>
         <li>
@@ -49,6 +59,14 @@ const Projects = () => (
             text="Um projeto simples de um loja de veiculos que foi feita para estudo do BootStrap."
             href="https://github.com/Adriano-04/Car-shop-bootstrap-"
             tag="BootStrap"
+          />
+        </li>
+        <li>
+          <Project
+            title="Disney+ clone"
+            text="Um projeto feito com orientaçoes de curso que utiliza o SCSS,Gulp para estudo."
+            href="https://github.com/Adriano-04/disneyplus_clone"
+            tag="SCSS/Gulp"
           />
         </li>
       </List>
