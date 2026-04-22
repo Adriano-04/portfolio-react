@@ -13,7 +13,8 @@
       "resolveJsonModule": true,                   // Permite importar arquivos JSON
       "isolatedModules": true,                     // Garante que cada arquivo é tratado como um módulo isolado
       "noEmit": true,                              // Não emite arquivos de saída (útil para usar apenas para checagem)
-      "jsx": "react-jsx"                           // Configuração para JSX no React 17+
+      "jsx": "react-jsx",                          // Configuração para JSX no React 17+
+      "ignoreDeprecations": "6.0"                  // Ignora depreciações até TypeScript 6.0
     },
     "include": [
       "src"  // Inclui a pasta src no projeto

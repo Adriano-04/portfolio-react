@@ -4,7 +4,7 @@ import Github from './styles'
 
 const Sobre = () => (
   <section>
-    <Title fontSize={16}>Sobre</Title>
+    <Title fontSize={20}>Sobre</Title>
     <Text tipo="principal">
       Atualmente sou estudante focado na área de desenvolvimento front-end, com
       um ano de estudos sobre as principais ferramentas e tecnologias da área de
@@ -17,11 +17,11 @@ const Sobre = () => (
     <Github>
       <img
         height="180em"
-        src="https://github-readme-stats.vercel.app/api?username=Adriano-04&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"
+        src="https://github-readme-stats-sigma-five.vercel.app/api?username=Adriano-04&show_icons=true&theme=dracula"
       />
       <img
         height="180em"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adriano-04&layout=compact&langs_count=7&theme=dracula"
+        src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=Adriano-04&layout=compact&langs_count=7&theme=dracula"
       />
     </Github>
   </section>

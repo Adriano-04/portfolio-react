@@ -21,6 +21,7 @@ export const SideContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+  padding: 16px;
 
   @media (min-width: 1124px) {
     position: fixed;

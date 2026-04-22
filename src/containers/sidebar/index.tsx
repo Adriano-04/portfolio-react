@@ -29,7 +29,7 @@ const Sidebar = (props: Props) => (
         as={'a'}
         href="https://www.linkedin.com/in/adriano-marques-22a07a35b/"
       >
-        Perfil no Linkdin
+        Perfil no LinkedIn
       </ButtonTheme>
     </SideContainer>
   </aside>

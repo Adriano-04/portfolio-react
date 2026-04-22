@@ -6,6 +6,7 @@ const Github = styled.div`
 
   img {
     height: 157px;
+    margin-left: 22px;
 
     @media (max-width: 768px) {
       width: 100%;
